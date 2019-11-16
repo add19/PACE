@@ -33,5 +33,5 @@ app.get('/prudence.html', function(req, res){
 
 
 var server = app.listen(process.env.PORT, ()=>{
-    console.log("Stark Server active...");
+    console.log("Server active...");
 });
